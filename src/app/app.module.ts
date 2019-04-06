@@ -7,13 +7,15 @@ import { HeroesComponent } from './heroes/heroes.component';
 import {FormsModule} from '@angular/forms';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FormFieldComponent } from './form-field/form-field.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     NavBarComponent,
-    FormFieldComponent
+    FormFieldComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
